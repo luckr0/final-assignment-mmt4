@@ -2,45 +2,44 @@
 <html>
 
 <head>
-  <title>website</title>
-  <link href="https://fonts.googleapis.com/css?family=Playfair+Display&display=swap" rel="stylesheet">
-
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <title></title>
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
+  <link rel="stylesheet" href="css/jquery-ui.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700|Playfair+Display:700&display=swap"
+    rel="stylesheet">
+  <meta content="width=device-width, initial-scale=1" name="viewport" />
   <link href="https://vjs.zencdn.net/7.5.4/video-js.css" rel="stylesheet">
 
   <meta charset="utf-8">
 
+
 </head>
 
+<body>
 
 
+  <header class="hero">
 
-
-<body >
-
-  <header>
-
-    <div class="logo"></div>
     <nav class="clearfix">
 
       <ul>
         <li>
           <a href="index.html">
-            Over ons
+            About me
           </a>
         </li>
         <li>
-          <a href="workshop.html">
-            Lesmateriaal
+          <a href="page2.html">
+            Portofolio
           </a>
         </li>
         <li>
-          <a href="contact.html">
+          <a href="#">
             Contact
           </a>
         </li>
-    
+
 
       </ul>
 
@@ -48,204 +47,163 @@
 
     </nav>
 
+    <div class="profile-img-wrapper"></div>
+    <h1>Hi, my name is Vincent
+    </h1>
+    <h1>I code and design cool stuff</h1>
 
+    <p>Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna
+      mollis euismod. </p>
 
   </header>
+  <main>
 
-<main>
-  <div class="hero-img">
-    <h1 class="introhead">Van beginner naar expert
-     
-    </h1>
-    <h1 class="introhead"> Het lesmateriaal brengt je verder</h1>
-
-    <p class="intropara">Aenean eu leo quam. Pellentesque ornare sem lacinia quam venenatis vestibulum. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Donec id elit non mi porta gravida at eget metus. Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor.</p>
-  </div>
-  
-
-  
-<div id=accordionwrapper class="lightmode">
-  <h3 class="playlist">Playlist
-     
-  </h3>
-<div id="accordion" class="lightmode">
-
-
-  <h3>
-    
-    
-    <img class="bluedown" src="img/bludown.png">
-    <img class="greyright" src="img/grayright.png">
-
-    <span class="h3text" >Algemene introductie</span>
-    <span id="donemark1" class="donemark"><img class="done" src="img/done.png"></span>
-    
-    </h3>
-
-  <div>
-    
-<video id="playa" class="video-js" width="720" height="600" >
-  <source src="img/small.mp4" type="video/mp4">
- </video>
- <div class="buttonwrapper">
-  <a href="#" id="playbutton1" class="player-btn playbtn" >play</a>
-  <a href="#" id="rewindbutton1" class="player-btn rewindbtn">rewind</a>
-  <a href="#" id="donebutton1" class="player-btn donebutton">Done</a>
-
-</div>
-
-
-</div>
-  <h3>
-      <img class="bluedown" src="img/bludown.png">
-      <img class="greyright" src="img/grayright.png">
-      <span class="h3text" >Workshop 1: Kleuren met code</span> 
-      <span id="donemark2" class="donemark"><img class="done" src="img/done.png"></span>
-
-    </h3>
-  <div>
-      
-<video id="playa2" class="video-js" width="720" height="600">
-  <source src="img/small.mp4" type="video/mp4">
-  
-  
-  </video>
-  <div class="buttonwrapper">
-  <a href="#" id="playbutton2" class="player-btn playbtn" >play</a>
-  <a href="#" id="rewindbutton2" class="player-btn rewindbtn">rewind</a>
-  <a href="#" id="donebutton2" class="player-btn donebutton">Done</a>
-
-</div>
-  </div>
-  <h3>
-      <img class="bluedown" src="img/bludown.png">
-      <img class="greyright" src="img/grayright.png">
-      <span class="h3text" >Workshop 2: Vormen maken</span>    <span id="donemark3" class="donemark"><img class="done" src="img/done.png"></span>
-      <span class="download" > <img src="img/downloads.png" alt=""></span></h3>
-  <div>
-  
-<video id="playa3" class="video-js" width="720" height="600">
-    <source src="img/small.mp4" type="video/mp4">
-    
-    
+    <video id="playa" class="video-js" width="710" height="400">
+      <source src="img/Awwwards Brand Refresh - Celebrating Simplicity.mp4" type="video/mp4">
     </video>
     <div class="buttonwrapper">
-    <a href="#" id="playbutton3" class="player-btn playbtn" >play</a>
-    <a href="#" id="rewindbutton3" class="player-btn rewindbtn">rewind</a>
-    <a href="#" id="donebutton3" class="player-btn donebutton">Done</a>
+      <a href="#" id="rewindbutton1" class="player-btn rewindbtn hidebutton">rewind</a>
+
+      <a href="#" id="playbutton1" class="player-btn playbtn hidebutton">play</a>
+
+    </div>
+    <a href="page2.html" class="featured">Featured Portofolio</a>
+
+    <div class="portofolio-wrapper">
+
+      <div class="portofolio-item wrapper1">
+        <div class="portofolio-content hidebutton">
+
+          <h2>Digital thinkers conference</h1>
+
+            <div class="tagwrapper">
+              <div class="tag">#client</div>
+              <div class="tag">#design</div>
+
+              <div class="tag">#code</div>
+
+
+            </div>
+
+        </div>
+      </div>
+      <div class="portofolio-item wrapper2">
+        <div class="portofolio-content hidebutton">
+
+          <h2>Patsy</h1>
+
+            <div class="tagwrapper">
+              <div class="tag">#client</div>
+              <div class="tag">#design</div>
+
+              <div class="tag">#code</div>
+
+
+            </div>
+
+
+        </div>
+      </div>
+      <div class="portofolio-item wrapper3">
+        <div class="portofolio-content hidebutton">
+
+          <h2>Plant met druipding</h1>
+
+            <div class="tagwrapper">
+              <div class="tag">#client</div>
+              <div class="tag">#design</div>
+
+              <div class="tag">#code</div>
+
+
+            </div>
+
+
+        </div>
+      </div>
+      <div class="portofolio-item wrapper4">
+
+        <a href="page2.html">
+          <div class="portofolio-content hidebutton">
+
+
+            <h2>Triangles in Space</h1>
+
+              <div class="tagwrapper">
+                <div class="tag">#client</div>
+                <div class="tag">#design</div>
+
+                <div class="tag">#code</div>
+
+
+              </div>
+
+          </div>
+        </a>
+      </div>
+      <div class="portofolio-item wrapper5">
+        <a href="page2.html">
+
+          <div class="portofolio-content hidebutton">
+
+            <h2>Carry a big stick</h1>
+
+              <div class="tagwrapper">
+                <div class="tag">#client</div>
+                <div class="tag">#design</div>
+
+                <div class="tag">#code</div>
+
+
+              </div>
+
+
+          </div>
+        </a>
+
+      </div>
+      <div class="portofolio-item wrapper6">
+        <div class="portofolio-content hidebutton">
+
+          <h2>Coloured Block</h1>
+
+            <div class="tagwrapper">
+              <div class="tag">#client</div>
+              <div class="tag">#design</div>
+
+              <div class="tag">#code</div>
+
+
+            </div>
+        </div>
+      </div>
+      <a href="page2.html" class="cta1">
+        More Portofolio
+      </a>
+    </div>
+
+
+
+  </main>
+  <div class="contactinfo hidebutton clearfix">
+    <a href="#">
+      <img class="closebutt" src="img/close.png">
+    </a>
+    <h1 class="contactheader">Contact</h1>
+    <h3>Vincent Willemson</h3>
+    <h3>tel: 064206969</h3>
+    <h3>email: vincent.willemson@gmail.com</h3>
 
   </div>
-  </div>
-  <h3>
-      <img class="bluedown" src="img/bludown.png">
-      <img class="greyright" src="img/grayright.png">
-      <span class="h3text" >Workshop 3: Beweging</span>    <span id="donemark4" class="donemark"><img class="done" src="img/done.png"></span>
-      <span class="download" > <img src="img/downloads.png" alt=""></span>
-    </h3>
-  <div>
-  
-<video id="playa4" class="video-js" width="720" height="600">
-    <source src="img/small.mp4" type="video/mp4">
-    
-    
-    </video>
-    <div class="buttonwrapper">
-    <a href="#" id="playbutton4" class="player-btn playbtn" >play</a>
-    <a href="#" id="rewindbutton4" class="player-btn rewindbtn">rewind</a>
-    <a href="#" id="donebutton4"  class="player-btn donebutton">Done</a>
-
-  </div>
-  </div>
-  <h3>
-      <img class="bluedown" src="img/bludown.png">
-      <img class="greyright" src="img/grayright.png">
-      <span class="h3text" >Workshop 4: Variabelen gebruiken</span>    <span id="donemark5" class="donemark"><img class="done" src="img/done.png"></span>
-</h3>
-  <div>
-    
-<video id="playa5" class="video-js" width="720" height="600">
-    <source src="img/small.mp4" type="video/mp4">
-    
-    
-    </video>
-    <div class="buttonwrapper">
-    <a href="#" id="playbutton5" class="player-btn playbtn" >play</a>
-    <a href="#" id="rewindbutton5" class="player-btn rewindbtn">rewind</a>
-    <a href="#" id="donebutton5"  class="player-btn donebutton">Done</a>
-
-  </div>
-  </div>
-</div>
-
-
-</div>
-  
-<div class="modal">
-
-  <img src="img/exit.png" alt="" class="exit">
-  <h2>Goed gedaan!</h3>
-    <p>Je hebt de video succesvol bekeken, Alweer iets nieuws bijgeleerd. Hier heb je een lolly</p>
-</div>
-
-
-<div class="supportwrapper">
-  <h3 class="support">Support</h3>
-  <h1 class="supporthead">Kom je er niet uit?
-      Wij helpen je graag verder
-  </h1>
- 
-
-  <div class="KlaartjeWrapper">
-   <div class="imgwrapper"></div>
-   <h2 class="name">Klaartje Klaasen</h2>
-<h3  class="contact">Hoofd Contactporsoon </h3>
-<a class="mail" href="#">Email</a>
-
-</div>
-  <div class="KlaartjeWrapper">   
-    <div class="imgwrapper">
-
-  </div>
-  <h2 class="name">Klaartje Klaasen</h2>
-  <h3  class="contact">Hoofd Contactporsoon </h3>
-  <a class="mail" href="#">Email</a>
-  
-</div>
-
-  <div class="KlaartjeWrapper">   <div class="imgwrapper"></div>
-  <h2 class="name">Klaartje Klaasen</h2>
-  <h3  class="contact">Hoofd Contactporsoon </h3>
-  <a class="mail" href="#">Email</a>
-  
-</div>
-  <div class="KlaartjeWrapper">   <div class="imgwrapper"></div> <h2 class="name">Klaartje Klaasen</h2>
-  <h3  class="contact">Hoofd Contactporsoon </h3>
-  <a class="mail" href="#">Email</a>
-  
-</div>
-<div class="clear"></div>
-</div>
-
-<div class="herofooter">
-  <h1>Klaar voor de volgende uitdaging?</h1>
-  <h5>In ons expertprogramma vind je lessen voor gevorderden </h5>
-<a href="#" class="cta">Kom maar op!</a>
-</div>
-
-</main>
-
-
-<script src="https://vjs.zencdn.net/6.4.0/video.js"></script>
-
-<script src="js/jquery-3.4.1.min.js"></script>
-<script src="js/scripts.js"></script>
-<script src="js/jquery-ui.min.js"></script>
-<footer>
-  
-  <img class="light" src="img/switch.png"> 
-  <img class="dark" src="img/switch2.png"> 
-
-</footer>
+  <footer>
+    <h1 class="footer">What can I do for you</h1>
+    <h1 class="footer">Lets get in touch</h1>
+    <a href="#" class="contact">Contact</a>
+  </footer>
+  <script src='https://vjs.zencdn.net/7.6.0/video.js'></script>
+  <script src="js/jquery-3.4.1.min.js"></script>
+  <script src="js/jquery-ui.min.js"></script>
+  <script src="js/scripts.js"></script>
 </body>
 
 </html>
